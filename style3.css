@@ -1,14 +1,14 @@
 .gal1,.gal2,.gal3{
-width: 250px;
+width: 200px;
 height: 280px;
 text-align: center;
 padding: 30px;
 }
 figure img{
-    width: 200px;
-    height: 240px;
+    width: 180px;
+    height: 200px;
     transition: 0.3s;
-    padding: 20px;
+    padding: 40px;
     float: left;
 }
 *{
@@ -16,8 +16,10 @@ figure img{
 }
 figcaption{
     border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px gray;
+    border-radius: 94px;
+    background: #ffffff;
+    box-shadow:  32px 32px 64px #757575,
+                 -32px -32px 64px #ffffff;
     font-size: 14px;
     float: left;
     position: relative;
