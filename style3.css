@@ -1,0 +1,31 @@
+.gal1,.gal2,.gal3{
+width: 250px;
+height: 280px;
+text-align: center;
+padding: 30px;
+}
+figure img{
+    width: 200px;
+    height: 240px;
+    transition: 0.3s;
+    padding: 20px;
+    float: left;
+}
+*{
+    font-family: omid;
+}
+figcaption{
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    font-size: 14px;
+    float: left;
+    position: relative;
+}
+figure:hover img{
+    transform: scale(1.1) ;
+}
+figure{
+    padding: 20px;
+    float: left;
+}
